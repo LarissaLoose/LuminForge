@@ -1,6 +1,6 @@
-# ForgeMind
+#LuminForge
 
-> ForgeMind is an open-source platform designed to help aspiring AI Engineers organize their learning journey, build real-world projects, track progress, and prepare for careers in Artificial Intelligence.
+> LuminForge is an open-source platform designed to help aspiring AI Engineers organize their learning journey, build real-world projects, track progress, and prepare for careers in Artificial Intelligence.
 ---
 ## Mission
 

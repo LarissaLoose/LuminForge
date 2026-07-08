@@ -1,19 +1,15 @@
 # ForgeMind
 
-> Forge your AI career, one project at a time.
+> ForgeMind is an open-source platform designed to help aspiring AI Engineers organize their learning journey, build real-world projects, track progress, and prepare for careers in Artificial Intelligence.
+---
+## Mission
 
-AI Career Forge is an open-source platform designed to help AI students organize their learning journey, track progress, build portfolios, and prepare for the job market.
-
-This project is being developed as part of my own journey to become an AI Engineer, following real software engineering practices from day one.
-
+Helping future AI Engineers learn, build, and grow through real-world projects.
 ---
 
 ## 🎯 Vision
 
-Learning Artificial Intelligence often requires using multiple disconnected tools for studying, tracking progress, building projects, and preparing for interviews.
-
-AI Career Forge aims to centralize this experience into a single platform.
-
+Become the ultimate open-source platform for learning Artificial Intelligence by building, not just studying.
 ---
 
 ## 🚀 Goals

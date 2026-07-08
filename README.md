@@ -6,7 +6,8 @@
 
 ## Preview
 
-![LuminForge Preview](./docs/assets/preview.png)
+<img width="229" height="183" alt="images" src="https://github.com/user-attachments/assets/055522dc-2b45-4b1d-a029-2b652acd8980" />
+
 
 ## Why LuminForge?
 

@@ -1,4 +1,4 @@
-# AI Career Forge
+# ForgeMind
 
 > Forge your AI career, one project at a time.
 
@@ -95,6 +95,7 @@ Contributions, ideas, and feedback are welcome in the future.
 
 MIT License
 
+---
 
 ## 🌱 Development Journey
 

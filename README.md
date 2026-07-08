@@ -4,6 +4,10 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Version](https://img.shields.io/badge/version-v0.1-blue)
 
+## Preview
+
+![LuminForge Preview](./docs/assets/preview.png)
+
 ## Why LuminForge?
 
 Many AI learners struggle to organize courses, projects, skills, and career preparation across multiple disconnected tools.

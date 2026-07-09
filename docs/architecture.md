@@ -6,7 +6,7 @@ LuminForge is an open-source platform designed to help aspiring AI Engineers org
 
 ---
 
-# System Architecture
+# System Architecture:
 
 ## Frontend
 
@@ -68,9 +68,9 @@ Responsibilities:
 
 ---
 
-# Future Architecture
+# Future Architecture:
 
-```text
+text
 User
 
 ↓
@@ -90,3 +90,43 @@ PostgreSQL Database
 AI Services
 
 (OpenAI / Hugging Face)
+
+---
+
+## mermaid:
+
+User[User]
+
+Frontend[React + TypeScript]
+
+Backend[FastAPI]
+
+Database[(PostgreSQL)]
+
+AI[OpenAI / Hugging Face]
+
+User --> Frontend
+
+Frontend --> Backend
+
+Backend --> Database
+
+Backend --> AI
+
+---
+
+## Architecture Principles:
+
+- Separation of Concerns
+
+- Single Responsibility
+
+- Component-Based Design
+
+- API First
+
+- Documentation First
+
+- Scalability
+
+---

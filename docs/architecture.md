@@ -126,3 +126,19 @@ flowchart TD
 - Scalability
 
 ---
+
+## Non-Functional Requirements
+
+- Responsive Design
+- Accessibility
+- Clean Code
+- Scalability
+- Performance
+- Security
+- Maintainability
+
+
+
+
+
+

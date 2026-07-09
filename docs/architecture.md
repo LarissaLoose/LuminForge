@@ -92,26 +92,22 @@ AI Services
 (OpenAI / Hugging Face)
 
 ---
+## Architecture Diagram
 
-## mermaid:
+```mermaid
+flowchart TD
+    User([User])
 
-User[User]
+    Frontend["React + TypeScript + Tailwind"]
+    Backend["FastAPI"]
+    Database[("PostgreSQL")]
+    AI["OpenAI<br/>Hugging Face"]
 
-Frontend[React + TypeScript]
-
-Backend[FastAPI]
-
-Database[(PostgreSQL)]
-
-AI[OpenAI / Hugging Face]
-
-User --> Frontend
-
-Frontend --> Backend
-
-Backend --> Database
-
-Backend --> AI
+    User --> Frontend
+    Frontend --> Backend
+    Backend --> Database
+    Backend --> AI
+```
 
 ---
 

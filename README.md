@@ -75,29 +75,19 @@ backend/
 
 ## Roadmap
 
-### v0.1 - Foundation
+## Roadmap
 
-- [x] Repository setup
-- [x] Documentation
-- [x] Project architecture
+### v0.1 Foundation
 
-### v0.2 - Learning Dashboard
+- Repository setup
+- Documentation
+- Project architecture
 
-- [ ] Landing Page
-- [ ] Progress Dashboard
-- [ ] Course Tracker
+### v0.2 Learning Dashboard
 
-### v0.3 - Portfolio System
-
-- [ ] Project Manager
-- [ ] GitHub Integration
-- [ ] Hugging Face Integration
-
-### v0.4 - AI Features
-
-- [ ] AI Mentor
-- [ ] Interview Simulator
-
+- Landing Page
+- Progress Dashboard
+- Course Tracker
 ---
 
 ## 📖 Documentation

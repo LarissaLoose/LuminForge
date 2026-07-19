@@ -1,0 +1,70 @@
+header {
+  background-color: var(--color-surface);
+  padding: 24px 0;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.header-content {
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+/*===========================
+   LOGO
+===========================*/
+
+header h2 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+/*===========================
+    
+        NAVIGATION  
+
+===========================*/
+
+header nav {
+  display: flex;
+  gap: 2rem;
+}
+
+header nav a {
+  color: var(--color-text);
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+header nav a:hover{
+  color: var(--color-accent);
+}
+
+/*===========================
+    
+      Animação dos links 
+
+===========================*/
+header nav a {
+  position: relative;
+}
+
+header nav a::after {
+  content: "";
+  position:absolute;
+  left: 0;
+  bottom: -6px;
+
+  width:0;
+  height: 2px;
+
+background-color: var(--color-accent);
+
+transition: var(--transition);
+}
+
+header nav a:hover::after {
+  width: 100%;
+}

@@ -1,0 +1,22 @@
+ .features {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.features > .container > p {
+  max-width: 700px;
+  margin: 0 auto 48px;
+  color: var(--color-text-light);
+}
+
+.features-grid {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+}

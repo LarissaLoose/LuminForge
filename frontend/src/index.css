@@ -1,0 +1,126 @@
+ /*===========================
+   RESET CSS
+=========================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*===========================
+   VARIÁVEIS GLOBAIS
+=========================== */
+
+:root {
+  --color-primary: #2B3668;
+  --color-secondary: #4C558A;
+  --color-accent: #4B75FF;
+  --color-light: #A7ABF2;
+  --color-gold: #F4B942;
+
+  --color-background: #F8FAFC;
+  --color-surface: #FFFFFF;
+
+  --color-text: #1F2937;
+  --color-text-light: #6B7280;
+
+  --shadow:
+    0 10px 25px rgba(0, 0, 0, 0.08);
+
+  --radius: 12px;
+
+  --container-width: 1200px;
+
+  --transition: 0.3s ease;
+}
+
+/*===========================
+   ESTILOS GERAIS
+=========================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: var(--color-background);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+/*===========================
+   CONTAINER
+=========================== */
+
+.container {
+  width: 90%;
+  max-width: var(--container-width);
+  margin: 0 auto;
+}
+
+/*===========================
+   TÍTULOS
+=========================== */
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--color-primary);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ===========================
+   BOTÕES
+=========================== */
+
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: var(--radius);
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.btn-primary {
+  background: var(--color-accent);
+  color: white;
+}
+
+.btn-primary:hover {
+  opacity: .9;
+}
+
+.btn-secondary {
+  background: var(--color-gold);
+  color: #111827;
+}
+
+.btn-secondary:hover {
+  opacity: .9;
+}
+
+/* ===========================
+   SECTIONS
+=========================== */
+
+section {
+  padding: 80px 0;
+}
+
+/* ===========================
+   CARDS
+=========================== */
+
+.card {
+  background: white;
+  border-radius: var(--radius);
+  padding: 2rem;
+  box-shadow: var(--shadow);
+}

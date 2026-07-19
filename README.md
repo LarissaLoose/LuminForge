@@ -1,6 +1,6 @@
-# LuminForge.
+# LuminForge
 
-> Learn. Build. Evolve.
+### Learn. Build. Evolve.
 
 LuminForge is an open-source platform designed to help aspiring AI Engineers organize their learning journey, build real-world projects, track progress, and develop the skills required for careers in Artificial Intelligence.
 

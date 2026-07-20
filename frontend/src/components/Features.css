@@ -20,3 +20,26 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+ 
+ .feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 64px;
+  height: 64px;
+
+  margin-bottom: 20px;
+
+  font-size: 2rem;
+
+  border-radius: 50%;
+
+  background: rgba(75, 117, 255, 0.08);
+
+  transition: transform .3s ease;
+}
+
+.card:hover .feature-icon {
+  transform: scale(1.12) rotate(5deg);
+}

@@ -1,75 +1,120 @@
-# React + TypeScript + Vite
+# LuminForge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Learn. Build. Evolve.
 
-Currently, two official plugins are available:
+LuminForge is an open-source platform designed to help aspiring AI Engineers organize their learning journey, build real-world projects, track progress, and develop the skills required for careers in Artificial Intelligence.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
+## Mission
 
-## React Compiler
+LuminForge is an open-source platform that helps aspiring AI Engineers learn, build, and showcase real-world skills through structured projects and measurable progress.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🎯 Vision
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Become the best open-source platform for developers who want to grow from beginner to AI Engineer through practical experience.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Core Values
 
+- Learn continuously
+- Build real projects
+- Share knowledge
+- Improve every day
+- Repeat the process
+---
+
+## 🚀 Goals
+
+- Track study progress
+- Manage AI learning roadmaps
+- Organize personal projects
+- Integrate with GitHub
+- Integrate with Hugging Face
+- Monitor skills evolution
+- Prepare for AI job interviews
+- Build a professional portfolio
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+
+### Backend (planned)
+
+- FastAPI
+- PostgreSQL
+- SQLAlchemy
+
+### AI (planned)
+
+- OpenAI
+- Hugging Face
+- LangChain
+
+---
+
+## 📂 Project Structure
+
+```text
+docs/
+frontend/
+backend/
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Roadmap
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Roadmap
 
-```
+### v0.1 Foundation
+
+- Repository setup
+- Documentation
+- Project architecture
+
+### v0.2 Learning Dashboard
+
+- Landing Page
+- Progress Dashboard
+- Course Tracker
+---
+
+## 📖 Documentation
+
+Project documentation will be available inside the `/docs` folder.
+
+---
+
+## 🤝 Contributing
+
+This project is currently being developed as a personal learning journey.
+
+Contributions, ideas, and feedback are welcome in the future.
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+## 🌱 Development Journey
+
+This repository is more than a software project.
+
+It is a public record of my journey from beginner to AI Engineer.
+
+Every feature, commit, and release represents a new step in my learning process and my commitment to building real-world AI applications.
+
